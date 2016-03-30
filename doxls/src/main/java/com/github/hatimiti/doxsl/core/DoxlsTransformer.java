@@ -94,4 +94,9 @@ class DoxlsTransformer extends AbstractTransformer {
 		getWorkbook().removeSheetAt(i);
 	}
 
+	@Override
+	public void resetArea(AreaRef areaRef) {
+		// TODO Auto-generated method stub
+	}
+
 }
